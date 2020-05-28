@@ -1,0 +1,32 @@
+{
+  "name": "teleology-oauth2-example",
+  "version": "1.0.0",
+  "description": "Serverless Oauth2 Provider",
+  "main": "index.js",
+  "scripts": {
+    "sls": "npx serverless",
+    "deploy": "yarn sls deploy",
+    "destory": "yarn sls remove"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icarus-sullivan/teleology-oauth2-example.git"
+  },
+  "keywords": [
+    "oauth2",
+    "serverless",
+    "provider"
+  ],
+  "author": "Chris Sullivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icarus-sullivan/teleology-oauth2-example/issues"
+  },
+  "homepage": "https://github.com/icarus-sullivan/teleology-oauth2-example#readme",
+  "devDependencies": {
+    "serverless": "^1.71.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.9.16"
+  }
+}
