@@ -4,6 +4,7 @@
   "description": "Serverless Oauth2 Provider",
   "main": "index.js",
   "scripts": {
+    "start": "npx serverless offline",
     "sls": "npx serverless",
     "deploy": "yarn sls deploy",
     "destory": "yarn sls remove"
@@ -24,7 +25,9 @@
   },
   "homepage": "https://github.com/icarus-sullivan/teleology-oauth2-example#readme",
   "devDependencies": {
-    "serverless": "^1.71.3"
+    "serverless": "^1.71.3",
+    "serverless-offline": "^6.4.0",
+    "serverless-plugin-modularize": "^1.0.5"
   },
   "dependencies": {
     "mongoose": "^5.9.16"

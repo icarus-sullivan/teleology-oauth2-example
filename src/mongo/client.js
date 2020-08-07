@@ -11,6 +11,7 @@ module.exports = db.model(
       avatar: { type: String },
       grants: { type: Array },
       redirectUris: { type: Array },
+      maintainers: { type: Array },
       scopes: { type: Array },
     },
     {
